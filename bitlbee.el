@@ -22,7 +22,12 @@
 ;; OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
 ;; WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 ;;
-;; Commentary:
+;; Author: Peter Jones <pjones@pmade.com>
+;;      Kevin Brubeck Unhammer
+;;
+;; Package-Version: 1.0
+;;
+;;; Commentary:
 ;;
 ;; Start and stop bitlbee from within emacs.
 ;;
@@ -52,6 +57,8 @@
 ;; Original version by Peter Jones:
 ;;
 ;; git clone git://pmade.com/elisp
+;;
+;;; Code:
 
 (defvar bitlbee-user-directory "~/.bitlbee"
   "The directory where user configuration goes")
@@ -192,4 +199,4 @@ interaction buffer)."
 
 
 (provide 'bitlbee)
-
+;;; bitlbee.el ends here
